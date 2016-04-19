@@ -14,6 +14,8 @@
     role admin = <p:outputLabel value="#{loginBean.subject.hasRole('admin')}"/>
     role employee = <p:outputLabel value="#{loginBean.subject.hasRole('employee')}"/>
     </pre>
+    
+    <p:keyboard rendered="#{loginBean.subject.hasRole('employee')}"></p:keyboard>
         
     
 </h:body>
