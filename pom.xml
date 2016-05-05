@@ -96,6 +96,16 @@
             <artifactId>shiro-ehcache</artifactId>
             <version>${apache-shiro.version}</version>
         </dependency>
+        
+        <!--Security framework connection pool-->
+        
+        <dependency>
+            <groupId>com.jolbox</groupId>
+            <artifactId>bonecp</artifactId>
+            <version>0.8.0.RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+                
         <!--security-->
 
         <!--logging-->
